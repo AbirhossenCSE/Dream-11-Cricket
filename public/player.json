@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co.com/BZqzFhd/3.jpg",
+    "name": "David Armstrong",
+    "country": "Australia",
+    "type": "Batting",
+    "rating": 9.2,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 1500000
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co.com/BZqzFhd/3.jpg",
+    "name": "Karan Patel",
+    "country": "India",
+    "type": "Bowling",
+    "rating": 8.9,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1400000
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co.com/BZqzFhd/3.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "type": "All-rounder",
+    "rating": 8.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm spin",
+    "price": 1300000
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co.com/Fm4hQGK/4.jpg",
+    "name": "Babor Azom",
+    "country": "Pakistan",
+    "type": "All-rounder",
+    "rating": 9.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "price": 1600000
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co.com/Fm4hQGK/4.jpg",
+    "name": "Sanjay Roy",
+    "country": "Bangladesh",
+    "type": "All-rounder",
+    "rating": 7.8,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 900000
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co.com/Fm4hQGK/4.jpg",
+    "name": "Chris Williams",
+    "country": "South Africa",
+    "type": "Bowling",
+    "rating": 8.7,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": 1450000
+  },
+  {
+    "id": 7,
+    "img": "https://i.ibb.co.com/RQwZLt0/5.jpg",
+    "name": "Nathan Brown",
+    "country": "New Zealand",
+    "type": "Batting",
+    "rating": 8.3,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": 1100000
+  },
+  {
+    "id": 8,
+    "img": "https://i.ibb.co.com/RQwZLt0/5.jpg",
+    "name": "Carlos Torres",
+    "country": "West Indies",
+    "type": "Batting",
+    "rating": 8.1,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm legbreak",
+    "price": 1200000
+  },
+  {
+    "id": 9,
+    "img": "https://i.ibb.co.com/RQwZLt0/5.jpg",
+    "name": "Takeshi Yamada",
+    "country": "Ireland",
+    "type": "All-rounder",
+    "rating": 7.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium",
+    "price": 850000
+  }
+]
