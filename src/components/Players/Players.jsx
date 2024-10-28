@@ -3,7 +3,7 @@ import { useState } from "react";
 import Player from "../Player/Player";
 import './Players.css'
 
-const Players = () => {
+const Players = ({ coinCount, setCoinCount }) => {
     const [players, setPlayers] = useState([]);
     const [selectedPlayers, setSelectedPlayers] = useState([]);
     const [showSelected, setShowSelected] = useState(false);
@@ -49,14 +49,14 @@ const Players = () => {
                         onClick={toggleShowSelected} 
                         className={`ml-4 border-2 p-2 rounded-xl ${showSelected ? "bg-yellow-300" : ""}`}
                     >
-                        Selected ({displayedPlayers.length})
+                        Selected ({showSelected.length})
                     </button>
                 </div>
             </div>
 
             {/* Selected Players List */}
             {showSelected && (
-                <div className="selected-players-list w-10/12 mx-auto mb-4 p-4 border-2 rounded-xl">
+                <div className="selected-players-list w-10/12 mx-auto mb-4 border-2 rounded-xl">
                     <h3 className="text-lg font-bold mb-2">Selected Players ({displayedPlayers.length} / 6) </h3>
                     <ul>
                         {selectedPlayers.map(player => (
@@ -85,7 +85,7 @@ const Players = () => {
             )}
 
             {/* Display full player card only if not in selected view */}
-            <div className={`grid lg:grid-cols-3 w-10/12 mx-auto p-2 gap-4 ${showSelected ? "hidden" : ""}`}>
+            <div className={`grid lg:grid-cols-3 w-10/12 mx-auto gap-4 ${showSelected ? "hidden" : ""}`}>
                 {displayedPlayers.map(player => 
                     <Player 
                         key={player.id} 
@@ -109,3 +109,4 @@ const Players = () => {
 };
 
 export default Players;
+

@@ -40,6 +40,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='bg-black w-10/12 mx-auto rounded-xl'>
+            
                 <div className='bg w-12/12 mx-auto p-8 rounded-xl flex flex-col space-y-4 justify-center items-center'>
                     <img className='' src={banner} alt="" />
                     <h2 className='text-white text-2xl font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h2>

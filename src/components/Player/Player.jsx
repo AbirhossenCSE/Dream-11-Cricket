@@ -21,7 +21,7 @@ const Player = ({ player, onSelect, isSelected, canSelectMore }) => {
 
     return (
         <div>
-            <div className="w-10/12 mx-auto p-2 border-2 border-black">
+            <div className="w-10/12 mx-auto p-2 border-2 rounded-xl">
                 <img src={img} alt={name} />
                 <div className="p-2">
                     <div className="flex items-center">
