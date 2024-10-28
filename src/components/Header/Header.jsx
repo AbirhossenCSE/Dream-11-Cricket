@@ -1,7 +1,15 @@
 import logo from '../../assets/image/logo.png'
 import banner from '../../assets/image/banner-main.png'
 import './Header.css'
+import { useState } from 'react';
+
 const Header = () => {
+    const [coinCount, setCoinCount] = useState(0);
+
+    const handleClaimCoins = () => {
+        setCoinCount(coinCount + 2000);
+    };
+
     return (
         <div>
             <div className='flex justify-between items-center w-10/12 mx-auto'>
@@ -15,7 +23,7 @@ const Header = () => {
                         <li>Teams</li>
                         <li>Schedules</li>
                     </ul>
-                    <button className='border p-2'>Coin</button>
+                    <button className='border p-2'>{coinCount} Coin</button>
                 </div>
             </div>
             <div className='bg-black w-10/12 mx-auto rounded-xl'>
@@ -23,7 +31,7 @@ const Header = () => {
                     <img className='' src={banner} alt="" />
                     <h2 className='text-white text-2xl font-bold'>Assemble Your Ultimate Dream 11 Cricket Team</h2>
                     <p className='text-gray-400 '>Beyond Boundaries Beyond Limits</p>
-                    <button className='bg-yellow-400 p-3 border-2 rounded-xl'>Claim Free Coin</button>
+                    <button onClick={handleClaimCoins} className='bg-yellow-400 p-3 border-2 rounded-xl'>Claim Free Coin</button>
                 </div>
             </div>
         </div>

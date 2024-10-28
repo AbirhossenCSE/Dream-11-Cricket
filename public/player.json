@@ -8,7 +8,7 @@
     "rating": 9.2,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": 1500000
+    "price": 1500
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "rating": 8.9,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": 1400000
+    "price": 1400
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "rating": 8.5,
     "batting_style": "Right-hand bat",
     "bowling_style": "Left-arm spin",
-    "price": 1300000
+    "price": 1300
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "rating": 9.0,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": 1600000
+    "price": 1600
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "rating": 7.8,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm medium",
-    "price": 900000
+    "price": 900
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "rating": 8.7,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast-medium",
-    "price": 1450000
+    "price": 1450
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "rating": 8.3,
     "batting_style": "Right-hand bat",
     "bowling_style": "Left-arm fast-medium",
-    "price": 1100000
+    "price": 1100
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "rating": 8.1,
     "batting_style": "Left-hand bat",
     "bowling_style": "Right-arm legbreak",
-    "price": 1200000
+    "price": 1200
   },
   {
     "id": 9,
@@ -96,6 +96,6 @@
     "rating": 7.5,
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm medium",
-    "price": 850000
+    "price": 850
   }
 ]
