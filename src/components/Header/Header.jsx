@@ -1,6 +1,7 @@
 import logo from '../../assets/image/logo.png'
 import banner from '../../assets/image/banner-main.png'
 import './Header.css'
+import Swal from 'sweetalert2';
 import { useState } from 'react';
 
 const Header = () => {
@@ -8,6 +9,18 @@ const Header = () => {
 
     const handleClaimCoins = () => {
         setCoinCount(coinCount + 2000);
+
+        Swal.fire({
+            title: 'Congratulations!',
+            text: 'You have successfully claimed 2000 free coins!',
+            icon: 'success',
+            backdrop: true,
+            timer: 3000,
+            timerProgressBar: true,
+            position: 'center',
+            background: '#f9fafb',
+            color: '#0E7A81'
+        });
     };
 
     return (
