@@ -14,11 +14,10 @@ This project is a web application that allows users to create their ultimate Dre
 
 
 ## Technologies Used
-- **Frontend**:
-  - **React**: A JavaScript library for building user interfaces.
-  - **Vite**: A fast development environment for building modern web applications.
-  - **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
-  - **SweetAlert2**:  A library for displaying beautiful, responsive alerts.
-  - **ESLint**: A tool for identifying and fixing problems in your JavaScript code.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast development environment for building modern web applications.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
+- **SweetAlert2**:  A library for displaying beautiful, responsive alerts.
+- **ESLint**: A tool for identifying and fixing problems in your JavaScript code.
 
 
