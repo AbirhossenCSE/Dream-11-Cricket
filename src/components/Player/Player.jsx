@@ -15,7 +15,6 @@ const Player = ({ player, onSelect, isSelected, canSelectMore, coinCount }) => {
             return;
         }
 
-        // Show alert if player can be selected
         if (!isSelected && canSelectMore) {
             onSelect();
             Swal.fire({
