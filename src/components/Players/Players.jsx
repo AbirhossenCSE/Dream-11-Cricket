@@ -54,13 +54,13 @@ const Players = ({ coinCount, setCoinCount }) => {
                         onClick={() => setShowSelected(false)} 
                         className={`border-2 p-2 rounded-xl ${!showSelected ? "bg-yellow-300" : ""}`}
                     >
-                        Available
+                        Available Player
                     </button>
                     <button 
                         onClick={toggleShowSelected} 
                         className={`ml-4 border-2 p-2 rounded-xl ${showSelected ? "bg-yellow-300" : ""}`}
                     >
-                        Selected ({selectedPlayers.length})
+                        Selected Player ({selectedPlayers.length})
                     </button>
                 </div>
             </div>

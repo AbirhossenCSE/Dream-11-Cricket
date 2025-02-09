@@ -1,5 +1,6 @@
 import footerb from '../../assets/image/logo-footer.png'
 import './Footer.css'
+
 const Footer = () => {
     return (
         <div className="mt-36">
